@@ -1,0 +1,366 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta content="Copyright © 2010 Way2sms.com " name=copyright />
+<meta content=follow name=robots />
+<meta name="keywords" content="Free SMS, Send Free SMS, Free SMS to india, Send Free SMS to india, email alerts on Mobile, Free text messaging, Send free SMS from PC to Mobile."/>
+<meta name="description" content="Free SMS, Send Free SMS, Send Free SMS to india, Free SMS in india, Free SMS Sites, free SMS to Mobiles, Free SMS website, Free SMS website in india, Free SMS service, Free SMS in india, SMS greetings, Group SMS, Free Group SMS, Joke SMS, SMS Quotes, SMS Jokes, Instant SMS, web to mobile Free SMS, Free SMS from net, Free SMS from Web, Free SMS Text, Free SMS message, free SMS from Mobile, Gmail alerts on Mobile , Yahoo mail alerts on Mobile, email alerts on mobile, free email alerts, Free email alerts on mobile, free SMS from US to india, Free SMS from UK to india, Free SMS from australia to india, Free SMS from UAE to india, Free SMS from singapore to india, Free SMS from china to india, Online SMS, Free text message."/>
+<title>Free SMS, Send Free SMS, Send Free SMS to india, Free email alerts, email2SMS, SMS Alerts,Bill Reminders, EMI Reminders, Loan Reminders, TV Shows Reminders, Future SMS, Mobile Bill Reminders</title>
+<link rel="stylesheet" type="text/css" href="http://sc1.way2sms.com/w2sv5/css/jquery-ui.css" /> 
+<script type='text/javascript' src='http://sc2.way2sms.com/w2sv5/js/jquery-1.9.1.js'></script>
+<script type="text/javascript" src="http://sc3.way2sms.com/w2sv5/js/jquery-ui.js"></script>  
+<style type="text/css">
+@font-face {
+    font-family: 'droidreg';
+    src: url('http://images.way2sms.com/w2sv5/fonts/droidserif-regular-webfont.eot');
+    src: url('http://images.way2sms.com/w2sv5/fonts/droidserif-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://images.way2sms.com/w2sv5/fonts/droidserif-regular-webfont.woff') format('woff'),
+         url('http://images.way2sms.com/w2sv5/fonts/droidserif-regular-webfont.ttf') format('truetype'),
+         url('http://images.way2sms.com/w2sv5/fonts/droidserif-regular-webfont.svg#droid_serifregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.san{font-family:'droidreg';}
+a { outline:none; text-decoration:none; }
+body { background:#fff; }
+body,td,th { font:200 12px/1  Tahoma, Geneva, sans-serif; margin:0; }
+h1,h2,h3,h4,p,ul,ol,li { margin:0; padding:0; list-style-type:none; font-weight:normal; }
+/* ---------------- Common Styles Start -------------------*/
+.pad0 { padding:0; }
+.pad5 { padding:5px; }
+.pad10 { padding:10px; }
+.pad12 { padding:12px; }
+.pad15 { padding:15px; }
+.butsm { padding:5px 10px; }
+.curp { cursor:pointer; }
+.mar0 { margin:0; }
+.mar5 { margin:5px; }
+.marl5 { margin-left:5px; }
+.mar10 { margin:10px; }
+.mar12 { margin:12px; }
+.mar15 { margin:15px; }
+.marctr { margin:0 auto; }
+.flt { float:left; }
+.frt { float:right; }
+.ovh { overflow:hidden; }
+.clr { clear:both; }
+.reds{-moz-border-radius:4px; -webkit-border-radius:4px; border-radius:4px;}
+.reds1{-moz-border-radius:2px; -webkit-border-radius:2px; border-radius:2px;}
+.lspy{background-image:url(http://images.way2sms.com/w2sv5/images/home-sprite.png); overflow:hidden; display:block; _background: none; text-indent: -9999px;}
+.lspy .ei{display:none; _display:block;	_width:188px;_height:314px;_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://images.way2sms.com/w2sv5/images/home-sprite.png", sizingMethod="crop"); font-style:normal;}
+.psp{background-image:url('./images/psp.png'); overflow:hidden; display:block; _background: none; text-indent: -9999px;}
+.psp .ei{display:none; _display:block;	_width:170px;_height:600px;_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="./images/psp.png", sizingMethod="crop"); font-style:normal;}
+.usrb{background-position:-173px -1px; width: 14px; height: 14px; margin:3px 6px 0 0;}
+.usrb .ei{_margin:-1px 0 0 -173px;}
+.dar1{background-position:-177px -18px; width: 8px; height: 7px; margin:7px 0 0 8px ;}
+.dar1 .ei{_margin:-18px 0 0 -177px;}
+.Rarw{background-position:-1px -171px; width: 25px; height: 25px;}
+.Rarw .ei{_margin:-171px 0 0 -1px;}
+.ad2{margin:0x; display:inline; float: right; padding: 1px 2px 0 0 ;}
+.adb {clear:both;display: block; margin: 0; padding: 3px; width: 816px;}
+.register{width:938px; border:2px solid #efeef4; border-width:0 2px 0 2px; margin:0 auto;}
+.register .lonav{overflow:hidden; display:inline-block; width:100%; height:92px; position: relative; padding-top: 35px;}
+.lonav h1{background:url(http://images.way2sms.com/w2sv5/images/home-sprite.png) 0 0; text-indent:-999px; width: 120px; height: 47px;  cursor:pointer; margin:0px 0 5px 25px; float:left;}
+.reg-main{margin:0 12px; padding:0 0 10px; overflow:hidden; _display:inline-block;}
+.tabs-n {overflow: hidden; display: inline-block;}
+.tabs-n li a p{color:#bebed7; font-size:11px; font-weight:bold; margin-bottom:4px;}
+.tabs-n h2{color:#666666; font-size:13px; line-height:20px; width: 150px;}
+.tabs-n h2 span{color:#ff0000;}
+.Ar{ display: block; height: 490px; margin: 5px 0; position: relative;}
+.bloks{ margin: 0px auto 12px; overflow: hidden;}
+.InF{width: 292px; height: 125px; float: left; margin:0 4px; color: #666; position: relative; border: 1px solid #dcdcdc;}
+.InF h3{font-size: 17px;font-family:'droidreg'; margin: 20px 110px 5px 15px; color: #333; line-height: 26px;}
+.InF p{font-size: 13px; margin-left: 15px;}
+.InF .boo{color:#fff; margin: 0 2px 2px; line-height: 30px; font-size: 12px; font-weight: bold; position: absolute; bottom: 0; left: 0; width: 120px; text-align:left; padding-left:20px; height: 30px; cursor: pointer;}
+.InF .boo i{position:absolute; top:2px; right:5px; background-position: -1px -171px; width: 25px; height: 25px; cursor: pointer;}
+.InF .boo i .ei{_margin:-171px 0 0 -1px ;}
+.topbar{height:30px;background: #54549C;}
+.topbar .wrap {margin: 0 auto; width: 940px; position:relative; display:block; height:27px;}
+.topbar p{float:left; color:#fff; font-size:11px; line-height:27px;}
+.topbar ul {display: block; float: right;}
+.topbar ul li {border-right: 1px solid #6768a0;float: left;}
+.topbar ul li.last {border-right: medium none;}
+.topbar ul li a {border-right: 1px solid #1e1f72; color: #fff;display: block; font-size: 11px;line-height:18px;padding: 5px 15px;}
+.topbar ul li a:hover{background: #1e1f72;}
+.boo.I4{background: #ea3f70;}
+.boo.I5{background: #8cb51c;}
+.boo.I6{background: #2196d9;}
+.InF.I1 p{color: #2196d9;}
+.InF.I2 p{color: #8cb51c;}
+.InF.I3 input{width: 180px; border: 1px solid #dcdcdc; padding: 6px; margin: 10px 0 0 15px;}
+.InF i{position: absolute; top: 10px; right: 10px;}
+.Fsm{background-position: -2px -317px; width: 70px; height: 69px;}
+.Fsm .ei{_margin:-317px 0 0 -2px;}
+.Fmr{background-position: -84px -317px; width: 70px; height: 69px;}
+.Fmr .ei{ _margin:-317px 0 0 -84px;}
+.Vem{background-position: -2px -395px; width: 70px; height: 69px;}
+.Vem .ei{ _margin:-395px 0 0 -2px;}
+.SideB{border:1px solid #efeef4; border-width: 0px 1px 0px 1px; width: 891px; margin: 0 auto; padding:0 12px ;}
+.greypart{background: #888bbf; padding: 5px;}
+.u-rel { bottom:0; right:0; position:absolute;}
+.logout { line-height: 20px; border:0 none; position: absolute; top: 0; right: 0;font-size: 15px; line-height: 26px;}
+.u-rel .ac-det div, .u-rel div {float:left; display:inline-block;}
+.lout{background-position:-2px -1px; width: 18px; height: 20px; display: inline-block; float: left; margin: 5px 5px 0 0 ;cursor: pointer;}
+.lout .ei{ _margin:-1px 0 0 -2px;}
+.u-rel .ac-det b.u-ico {background-position:0 -160px; }
+.u-rel span{ float:left; margin:0 0 0 8px; padding:2px 0 0 0; border-right:1px solid #d7d7d7; }
+.u-rel span.uname{float: none; display: block; border-bottom:1px solid #d7d7d7; border-right: none; padding: 10px 8px 10px 13px; margin: 0; overflow:hidden; text-overflow: ellipsis; white-space: pre; font-weight: bold; color:#fff; background: #68689B; }
+.u-rel .logout span{float:left; margin:0 0 0 2px;border:0 none;line-height:14px;cursor:pointer;padding:3px 0 0 0;}
+.logout a{ padding:0px 6px 0 0; color:#666666	; overflow: hidden;}
+.logout a:hover{ padding:0px 6px 0 0; color:#000;  }
+.popup { top:30px; right:-17px; background:#fff; font:200 12px/1 Tahoma, Geneva, sans-serif; width:158px; border:1px solid #d7d7d7; }
+.popup a{ display:block; color:#333; clear:both; border-bottom:1px solid #d7d7d7; padding:10px 15px; }
+.popup a:hover{ background:#F8F8F8; }
+.popup h3 { border-bottom:1px solid #d7d7d7; background:#f8f8f8; padding:10px 15px; font-weight:bold; font-size:13px; color:#555;}
+.popup h3 strong{ font-family:Tahoma, Geneva, sans-serif; font-weight:normal; margin-top:5px; display:block; color:#666; }	
+.u-rel .logout{*height: 23px;}
+.bluebox{color:#ffffff; display:block; height:40px; line-height:40px; padding:0; width:330px; margin:0 auto; text-align:center;
+background:#C61B14;
+background:-moz-linear-gradient(#E82C25, #C61B14) repeat scroll 0 0 #C61B14;
+background-image: -ms-linear-gradient(top left, #E82C25 0%, #C61B14 100%);
+background-image: -moz-linear-gradient(top left, #E82C25 0%, #C61B14 100%);
+background-image: -o-linear-gradient(top left, #E82C25 0%, #C61B14 100%);
+background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #E82C25), color-stop(1, #C61B14));
+background-image: -webkit-linear-gradient(top left, #E82C25 0%, #C61B14 100%);
+background-image: linear-gradient(top left, #E82C25 0%, #C61B14 100%);
+-moz-border-radius:4px; -webkit-border-radius:4px; border-radius:4px; 
+font-size:13px; *margin-top:15px;}
+.W2Stip {border: 2px solid #F1F1F1;margin-top: 5px; float: left; width: 600px; margin-right: 9px; height: 245px;}
+.W2Stip h3 {border-bottom: 1px solid #DDDDDD;font-family: droidreg; font-size: 18px; padding: 10px 10px 10px 15px; text-align: left;}
+.W2Stip h3 b{font-family: tahoma; color:#333; font-size: 16px; float: left; margin-right: 10px;}
+.W2Stip h3 span {color: #BB0000;}
+.W2Stip p {border-bottom: 1px solid #CCCCCC; clear: both;font-size: 13px;font-weight: normal;height: 56px; line-height: 24px;margin: 0 auto;padding: 6px;}
+.W2Stip p span {border-right: 1px solid #ddd; padding:0 10px; color: #666666;display: block;float: left;font-family: droidreg;font-size: 16px;font-weight: normal;margin-right: 20px;width: 130px; height: 55px;}
+.W2Stip p:nth-child(odd){background: #f8f8f8;}
+.ad30x25{float: left; width: 300px; height: 250px; background: #0000ff;margin-top: 5px;}
+.Ad3{width: 728px; height: 90px; background: #0000bb; margin: 10px 10px 0 0; clear: both; float: left;}
+.lbt{height: 52px; left: 10px;position: absolute;top: 80px;width: 160px;font-size: 11px;color: #757575;line-height: 15px;text-align: center;}
+.psp{background-image:url('./images/psp.png'); overflow:hidden; display:block; _background: none; text-indent: -9999px;}
+.psp .ei{display:none; _display:block;	_width:170px;_height:600px;_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="./images/psp.png", sizingMethod="crop"); font-style:normal;}
+.sec { margin:0 auto; width:905px; position:relative; }
+.social-links { position:absolute; top:2px; right:0; width:105px; font-size:11px; }
+.social-links a { display:block; float:left;  text-indent:-9999px; margin-top:3px; margin-left:3px; }
+.psp{background-image:url('./images/psp.png'); overflow:hidden; display:block; _background: none; text-indent: -9999px;}
+.psp .ei{display:none; _display:block;	_width:170px;_height:600px;_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="./images/psp.png", sizingMethod="crop"); font-style:normal;}
+.stwe{background-position: -90px -8px; width: 25px; height: 26px;}
+.stwe .ei{_margin:-8px 0 0 -90px;}
+.sfb{background-position: -117px -8px; width: 25px; height: 26px;}
+.sfb .ei{_margin:-8px 0 0 -117px;}
+.sgp{background-position: -143px -8px; width: 26px; height: 26px; }
+.sgp .ei{_margin:-8px 0 0 -143px;}
+#footer { margin-top: 20px; background:#f2f2f2;  padding:20px 0 0; border-top:1px solid #dddddd; }
+.bgco td, .bgco th{ background:#f8f8f8; }
+.fbotlink {clear: both;display: inline-block;margin-bottom: 15px;overflow: hidden;}
+.fbotlink a { color:#636363; display:block; padding:0 15px; float:left; border-right:1px solid #cecece; }
+#footer span {  color:#999; font-size:11px; display:block; margin-top:6px; margin-left:15px; }
+.fbotlink1  a { font-weight:bold; margin-bottom:0px; }
+.bbb { text-align:center; padding:5px 15px 20px ; border-top: 1px solid #dcdcdc;}
+.bbbsb{width: 920px; margin: 0 auto; overflow: hidden;}
+.flt{float:left;}
+.frt{float:right;}
+</style>	
+<script type="text/javascript">
+	function disp(data){	
+		document.getElementById("data").value=data;
+		disp1();
+	}
+	function disp1(){
+		document.main1.action="Main.action?id="+document.getElementById("id").value+"&data="+document.getElementById("data").value;
+		document.main1.submit();
+	}
+	function makeid(){
+	    var text = "";
+	    var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+	    for( var i=0; i < 10; i++ ){
+	        text += possible.charAt(Math.floor(Math.random() * possible.length));
+		}
+	   	return text;
+	}
+	function disp3(){
+		var id=makeid();
+		window.location="entry.jsp?h="+id;
+	}
+
+//////////////////// Valid email checking /////////////
+function emailCheck1(emailStr) {
+    var checkTLD = 1;
+    var knownDomsPat = /^(com|net|org|edu|int|mil|gov|arpa|biz|aero|name|coop|info|pro|museum)$/;
+    var emailPat = /^(.+)@(.+)$/;
+    var specialChars = "\\(\\)><@,;:\\\\\\\"\\.\\[\\]";
+    var validChars = "\[^\\s" + specialChars + "\]";
+    var quotedUser = "(\"[^\"]*\")";
+    var ipDomainPat = /^\[(\d{1,3})\.(\d{1,3})\.(\d{1,3})\.(\d{1,3})\]$/;
+    var atom = validChars + '+';
+    var word = "(" + atom + "|" + quotedUser + ")";
+    var userPat = new RegExp("^" + word + "(\\." + word + ")*$");
+    /* The following pattern describes the structure of a normal symbolic
+     domain, as opposed to ipDomainPat, shown above. */
+    var domainPat = new RegExp("^" + atom + "(\\." + atom + ")*$");
+    /* Finally, let's start trying to figure out if the supplied address is valid. */
+    /* Begin with the coarse pattern to simply break up user@domain into
+     different pieces that are easy to analyze. */
+
+    var matchArray = emailStr.match(emailPat);
+
+    if (matchArray == null) {
+        /* Too many/few @'s or something; basically, this address doesn't
+         even fit the general mould of a valid e-mail address. */
+        alert("Email address seems incorrect (check @ and .'s)");
+        return false;
+    }
+    var user = matchArray[1];
+    var domain = matchArray[2];
+    // Start by checking that only basic ASCII characters are in the strings (0-127).
+    if (user.length < 4 || user.length > 32) {
+        alert("Email address seems incorrect (Check length of Email)");
+        return false;
+    }
+    var iChars = "!@#$%^&*()+=-[]\\\';,/{}|\":<>?~";
+    var iChars1 = "!@#$%^&*()+=-[]\\\';,/{}|\":<>?~_";
+    for (i = 0; i < user.length; i++) {
+        if (user.charCodeAt(i) > 127) {
+            alert("Ths Email contains invalid characters.");
+            return false;
+        }
+        if (domain.indexOf("yahoo") != -1) {
+            if (iChars.indexOf(user.charAt(i)) != -1) {
+                alert("Please enter a valid email id (Yahoo Mail Id contains characters,numbers,dot and _)");
+                return false;
+            }
+        }
+        if (domain.indexOf("gmail") != -1) {
+            if (iChars1.indexOf(user.charAt(i)) != -1) {
+                alert("Please enter a valid email id (Gmail Id contains characters,numbers and dot)");
+                return false;
+            }
+        }
+    }
+    for (i = 0; i < domain.length; i++) {
+        if (domain.charCodeAt(i) > 127) {
+            alert("Ths domain name contains invalid characters.");
+            return false;
+        }
+    }
+    // See if "user" is valid 
+    if (user.match(userPat) == null) {
+        // user is not valid
+        alert("The Email doesn't seem to be valid.");
+        return false;
+    }
+    /* if the e-mail address is at an IP address (as opposed to a symbolic
+     host name) make sure the IP address is valid. */
+    var IPArray = domain.match(ipDomainPat);
+    if (IPArray != null) {
+        // this is an IP address
+        for (var i = 1; i <= 4; i++) {
+            if (IPArray[i] > 255) {
+                alert("Destination IP address is invalid!");
+                return false;
+            }
+        }
+        return true;
+    }
+    // Domain is symbolic name.  Check if it's valid.
+    var atomPat = new RegExp("^" + atom + "$");
+    var domArr = domain.split(".");
+    var len = domArr.length;
+    for (i = 0; i < len; i++) {
+        if (domArr[i].search(atomPat) == -1) {
+            alert("The domain name does not seem to be valid.");
+            return false;
+        }
+    }
+    /* domain name seems valid, but now make sure that it ends in a
+     known top-level domain (like com, edu, gov) or a two-letter word,
+     representing country (uk, nl), and that there's a hostname preceding 
+     the domain or country. */
+
+    if (checkTLD && domArr[domArr.length - 1].length != 2 &&
+            domArr[domArr.length - 1].search(knownDomsPat) == -1) {
+        alert("We only accept popular email services Gmail, Yahoo, Hotmail, Rediffmail, In.com, Ymail, MSN, Outlook, AOL & Live.com. Please enter the email id and try again.");
+        return false;
+    }
+    // Make sure there's a host name preceding the domain.
+    if (len < 2) {
+        alert("This address is missing a hostname!");
+        return false;
+    }
+    // If we've gotten this far, everything's valid!
+    return true;
+}
+////////////////////// end of valid email checking //////////        
+        
+function sendVerification(){       
+      var emailStr = document.getElementById("logemail").value; 
+      if(!emailCheck1(emailStr)){   
+            $("#logemail").focus();  
+            return false;   
+      }else{
+              var params = "email="+emailStr+"&Token="+$("#id").val();               
+                $.ajax({ 
+                    url: "./sendEmailVerifcation.action",    
+                    type : "POST",
+                    data: params,
+                    success: function (result){ 
+                      if(result!==undefined){                           
+                          if(result==="Failure : Invalid request. Please try again.."){ 
+                             alert("Failure : Invalid request. Please try again..");
+                           }else if(result==="success"){   
+                                alert("A confirmation email have been sent to your email.");   
+                           }else if(result==="session out"){ 
+                               window.parent.logout1();    
+                           }else if(result==="failed"){  
+                              alert("Some error occured during proccesing your request.");
+                           }else{
+                               alert(result);
+                           }                         
+                      }
+                    }
+              });  
+      }		
+}
+</script>
+<script type='text/javascript'>
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') +
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script>
+<script type='text/javascript'>
+googletag.cmd.push(function() {
+googletag.defineSlot('/1022441/V2014_E_Bridge_Top_728x90_AD', [728, 90], 'div-gpt-ad-1390028973075-0').addService(googletag.pubads());
+googletag.defineSlot('/1022441/V2014_E_Bridge_Middle_728x90_AD', [728, 90], 'div-gpt-ad-1390029006977-0').addService(googletag.pubads());
+googletag.defineSlot('/1022441/V2014_E_Bridge_Bottom_728x90_AD', [728, 90], 'div-gpt-ad-1390029029653-0').addService(googletag.pubads());
+googletag.defineSlot('/1022441/V2014_E_Bridge_300x250_AD', [300, 250], 'div-gpt-ad-1390977761627-0').addService(googletag.pubads());
+googletag.pubads().enableSingleRequest();
+googletag.enableServices();
+});
+</script>
+</head>
+<body>
+
+	<script type="text/javascript">
+        disp3();
+    </script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-41615127-1', 'way2sms.com');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>
