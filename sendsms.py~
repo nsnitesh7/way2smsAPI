@@ -76,5 +76,5 @@ HiddenVal=html[html.find('value", "',beg)+9:html.find(')',html.find('value", "',
 smsParams[HiddenName]=HiddenVal
 smsParams['textArea']="seskdsgfsdkt"
 print smsParams
-output=opener.open('http://site3.way2sms.com/stp2p.action',urllib.urlencode(smsParams))
+output=opener.open('http://site3.way2sms.com/smstoss.action',urllib.urlencode(smsParams))
 

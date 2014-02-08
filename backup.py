@@ -43,81 +43,48 @@ output=opener.open('http://site3.way2sms.com/singles.action',urllib.urlencode({'
 html=output.read()
 smsParams={}
 
-'''
+
 soup = BeautifulSoup(html)
 
 for iput in soup.findAll("input"):
 	if iput.has_key('name'):
 		if iput.has_key('value'):
-#			if iput.has_key['placeholder'] and iput['placeholder']=='Mobile Number':
-#				smsParams[iput['name']]=mobileNo
-#			else:
-			smsParams[iput['name']]=iput['value']
-
-
-pTag=soup.findAll("p", { "id" : "p1" })
-
-smsParams[pTag[0].findAll('input')[1]['name']]=mobileNo
-
-smsParams['textcode']=''
-
-print smsParams
-
-print ""
-
-'''
-
-beg=html.find("t_15_k_5")-100
-while(1):
-	paramBeg=html.find('<input',beg)
-	if(paramBeg==-1):
-		break
-	paramEnd=html.find('>',paramBeg)
-	param=BeautifulSoup(html[paramBeg:paramEnd+1])
-	if(param.input.has_key('name')):
-		if(param.input.has_key('value')):
-			smsParams[param.input['name']]=param.input['value']
-			if(html[paramBeg:paramEnd+1].find('Mobile Number')>=0):
-				smsParams[param.input['name']]=mobileNo
-
+			if iput.has_key('placeholder'):
+				if iput['placeholder']=="Mobile Number":
+					smsParams[iput['name']]=mobileNo
+				else:
+					smsParams[iput['name']]=iput['value']
+			else:
+				smsParams[iput['name']]=iput['value']
 		else:
-			smsParams[param.input['name']]=''
-	beg=paramEnd+1
-
-print smsParams
-
-print ""
+			smsParams[iput['name']]=""
 
 
-'''
-beg=html.find("t_15_k_5")
-while(1):
-	paramBeg=html.find('<textarea',beg)
-	if(paramBeg==-1):
-		break
-	paramEnd=html.find('</textarea>',paramBeg)
-	param=BeautifulSoup(html[paramBeg:paramEnd+11])
+#pTag=soup.findAll("p", { "id" : "p1" })
 
-	if(param.textarea.has_key('name')):
-		if(len(param.textarea.contents)==0):
-			smsParams[param.textarea['name']]=""
-		else:
-			smsParams[param.textarea['name']]=str(param.textarea.contents[0])
+#smsParams[pTag[0].findAll('input')[1]['name']]=mobileNo
 
-	beg=paramEnd+1
-'''
+#print smsParams
+
+#print ""
+
+
 
 beg=html.find('document.createElement("input")')
 HiddenName=html[html.find('name", "',beg)+8:html.find(')',html.find('name", "',beg))-1]
 smsParams[HiddenName]=''
 
+print "\t",HiddenName,"\n"
+
 beg=html.find('document.createElement("input")',beg+10)
 HiddenName=html[html.find('name", "',beg)+8:html.find(')',html.find('name", "',beg))-1]
 HiddenVal=html[html.find('value", "',beg)+9:html.find(')',html.find('value", "',beg))-1]
 smsParams[HiddenName]=HiddenVal
-
+print "\t",HiddenName,"\n"
 
 smsParams['textArea']=message
-print smsParams
+#print smsParams
 output=opener.open('http://site3.way2sms.com/smstoss.action',urllib.urlencode(smsParams))
+print "Message sent. Thanks for using the script."
 
+#print "\n",html,"\n"
