@@ -7,8 +7,8 @@ cj=cookielib.CookieJar()
 mobileNo=raw_input('Enter mobile number : ').strip()
 message=raw_input('Enter the text message : ').strip()
 opener=urllib2.build_opener(urllib2.HTTPCookieProcessor(cj))
-values = {      'username' : '8876736880',
-                'password' : 'niteshhh',
+values = {      'username' : '<Enter your username>',
+                'password' : '<Enter your password>',
                  'gval' :''
                 }
 data = urllib.urlencode(values)
