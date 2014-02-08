@@ -1,6 +1,6 @@
 #import urllib
 
-#login_data=urllib.urlencode({'username':'8876736880','password':'niteshhh','Login' :'Login'})
+#login_data=urllib.urlencode({'username':'<Enter your username>','password':'<Enter your password>','Login' :'Login'})
 
 #print urllib.urlopen('http://site3.way2sms.com/Login1.action',login_data).read()
 
@@ -15,8 +15,8 @@ cj=cookielib.CookieJar()
 mobileNo=raw_input('Enter mobile number : ').strip()
 message=raw_input('Enter the text message : ').strip()
 opener=urllib2.build_opener(urllib2.HTTPCookieProcessor(cj))
-values = {      'username' : '8876736880',
-                'password' : 'niteshhh',
+values = {      'username' : '<Enter your username>',
+                'password' : '<Enter your password>',
                  'gval' :''
                 }
 data = urllib.urlencode(values)
